@@ -1,0 +1,5 @@
+from sentiment_analyzer import SentimentAnalyzer
+
+analyzer = SentimentAnalyzer()
+results = analyzer.analyze_csv("reviews.csv", text_column="review")
+analyzer.export_results(results, "analysis_output.csv")
