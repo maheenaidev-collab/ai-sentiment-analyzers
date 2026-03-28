@@ -1,0 +1,9 @@
+Interactive Mode
+bashCopyCopied!
+python main.py --interactive
+Analyze a File
+bashCopyCopied!
+python main.py --file reviews.csv --column review_text --output results.csv
+Generate Visual Report
+bashCopyCopied!
+python main.py --file reviews.csv --column review_text --visualize
