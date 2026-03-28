@@ -1,0 +1,10 @@
+ai-sentiment-analyzer/
+├── main.py                  # CLI entry point
+├── sentiment_analyzer.py    # Core analyzer module
+├── visualizer.py           # Chart and graph generation
+├── utils.py                # Helper functions
+├── requirements.txt        # Dependencies
+├── sample_data/
+│   └── sample_reviews.csv  # Sample dataset for testing
+├── output/                 # Generated reports
+└── README.md
