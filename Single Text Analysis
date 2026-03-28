@@ -1,0 +1,15 @@
+from sentiment_analyzer import SentimentAnalyzer
+
+analyzer = SentimentAnalyzer()
+
+# Positive example
+result = analyzer.analyze("I love this! It works perfectly.")
+print(f"Sentiment: {result['sentiment']} (Confidence: {result['confidence']:.2f})")
+
+# Negative example
+result = analyzer.analyze("Terrible service. Worst experience ever.")
+print(f"Sentiment: {result['sentiment']} (Confidence: {result['confidence']:.2f})")
+
+# Neutral example
+result = analyzer.analyze("The meeting is scheduled for 3 PM.")
+print(f"Sentiment: {result['sentiment']} (Confidence: {result['confidence']:.2f})")
