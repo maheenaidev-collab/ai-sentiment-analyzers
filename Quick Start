@@ -1,0 +1,8 @@
+from sentiment_analyzer import SentimentAnalyzer
+
+analyzer = SentimentAnalyzer()
+
+# Analyze single text
+result = analyzer.analyze("This product is absolutely amazing! Best purchase ever!")
+print(result)
+# Output: {'text': '...', 'sentiment': 'positive', 'confidence': 0.92, 'scores': {...}}
