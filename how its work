@@ -1,0 +1,13 @@
+🧠 How It Works
+Text Preprocessing — Cleans and tokenizes input text
+Dual Analysis Engine:
+VADER (Valence Aware Dictionary) — Rule-based, great for social media
+TextBlob — ML-based pattern analysis
+Ensemble Scoring — Combines both engines for higher accuracy
+Classification — Maps scores to Positive/Negative/Neutral with confidence
+📊 Examples
+Text	Sentiment	Confidence
+"This app is incredible!"	✅ Positive	0.93
+"Worst customer service ever"	❌ Negative	0.89
+"The package arrived today"	➖ Neutral	0.76
+"Not bad, could be better"	➖ Neutral	0.54
